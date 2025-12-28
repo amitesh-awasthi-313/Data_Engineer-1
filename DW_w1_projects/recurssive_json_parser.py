@@ -1,4 +1,7 @@
-with open
+import json
+
+with open(r'/home/lenovo/Desktop/Workspace/DW_w1_projects/json.json', 'r') as f:
+    data = json.load(f)
 
 
 def wrapper(name , parent_key = ''):
@@ -24,5 +27,5 @@ def wrapper(name , parent_key = ''):
 
     return d 
 
-print(wrapper(json))
+print(wrapper(data))
 
