@@ -1,19 +1,4 @@
-json =  {
-    "id": 1,
-    "name": "Amitesh",
-    "address": {
-        "city": "Lucknow",
-        "pin": 226010
-    },
-    "skills": ["Python", "SQL"],
-    "company": {
-        "name": "Appsquadz",
-        "dept": {
-            "team": "Data",
-            "role": "Analyst"
-        }
-    }
-}
+with open
 
 
 def wrapper(name , parent_key = ''):
